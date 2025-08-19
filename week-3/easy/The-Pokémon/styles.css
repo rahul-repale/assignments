@@ -1,0 +1,113 @@
+body {
+    background: #0f172a;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+#card {
+    background: linear-gradient(180deg,#8df4e9,#210013);
+    border-radius: 14px;
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+}
+
+#types{
+    padding: 10px;
+    background-color: #212121;
+    color: aliceblue;
+    font-size: large;
+}
+
+#cardNumber{
+    padding: 5px;
+    background-color: #212121;
+    color: aliceblue;
+    font-size: large;
+    margin: 25px;
+    width: 50px;
+}
+
+#submit{
+    padding: 5px;
+    width: 100px;
+    font-size: large;
+    border-radius: 10px;
+    margin-left: 40%;
+}
+
+#mid{
+    display: flex;
+    justify-content: space-between;
+}
+
+#prev{
+    border-radius: 50%;
+    background-color: #1e293b;
+    margin: 100px;
+    height: 50px;
+    width: 50px;
+    margin-top: 170px;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+#next{
+    border-radius: 50%;
+    background-color: #1e293b;
+    margin: 100px;
+    height: 50px;
+    width: 50px;
+    margin-top: 170px;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+#nav{
+    padding-left: 39%;
+}
+
+#cardHead{
+    padding: 10px 15px;
+    margin-left: 80px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    white-space: pre;
+    font-size: 25px;
+}
+
+#sprite{
+    margin-right: 115px;
+    border: solid goldenrod 10px;
+    background-color: #999;
+    border-radius: 50%;
+    height: 70px;
+    position: fixed;
+    left: 445px;
+    top: 115px;
+}
+
+#charImg{
+    margin-top: 10px;
+    height: 200px;
+}
+
+#charData{
+    font-size: medium;
+    padding: 20px;
+    white-space: pre;
+}
+
+#charAbility{
+    white-space: pre;
+    font-size: medium;
+    padding: 20px 0px 0px 0px;
+    color: bisque;
+}
